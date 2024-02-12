@@ -1,8 +1,4 @@
 /* VARIABLES */
-:root{
-    --main-color: rgb(29, 84, 143);
-}
-
 @font-face {
     font-family: "Anthony";
     src: url(src\fonts\Anthony.otf), format("OpenType");
