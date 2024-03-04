@@ -54,6 +54,15 @@
   <br>
   <br>
   <br>
+  <img id="image1" src="src\img\favicon.jpg" style="opacity:0;transition-duration:.5s;">
+<!-- on met une petite transition pour faire apparaître l'image avec effet de fondu => plus sympa ;) -->
+
+<script>
+  setTimeout(function(){
+    document.querySelector('#image1').style.opacity="1";
+  },3000); /* 3000 correspond au delai en ms (3000 = 3s)*/
+</script>
+  
     <div class="BIOGRAPHIE">
 
       <p>John Maeda est un designer, artiste, graphiste, enseignant et chercheur américain né en 1966 à Seattle.
@@ -112,7 +121,8 @@
         <div class="numbertext">8 / 8</div>
         <img src="../base-web/src/img/Image 8.jpg" style="width:100%">
       </div>
-      
+ 
+  
     <!-- The dots/circles -->
     <div style="text-align:center">
       <span class="dot" onclick="currentSlide(1)"></span>
@@ -139,6 +149,9 @@
         mathématique.</p>
   </div>
   <br>
+ 
+  
+    
   
   <!-- scripts -->
   <script src="js/main.js"></script>
