@@ -1,0 +1,29 @@
+/* on place généralement les variables dans le pseudo élémen :root */
+:root{
+    /* le nom de la varriable commence toujours pas deux tirets */
+    --exemplevariable : rgb(255,0,0);
+}
+
+/* remise à zero des éléments */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img{
+width: max-content;
+position: absolute;
+margin-left: 360px;
+width: 480px;
+height: 658px;
+
+
+}
+
+
+
+
+
+
+

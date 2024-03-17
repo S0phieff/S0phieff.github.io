@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<!-- head : metadonnées et liens du site -->
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- infos sur le site -->
+    <title>Titre</title>
+    <meta name="description" content="description courte du site" />
+    <!-- icone de votre site -->
+    <link rel="apple-touch-icon" href="icon.png" />
+    <link rel="icon" href="favicon.ico" />
+    <!-- styles -->
+    <link rel="stylesheet" type="text/css" href="css/main5.css" />
+    <style>
+        .responsive 
+        {
+        width: 480px;
+        height: 658px;
+        }
+    </style>
+
+<style>
+    .Container
+    {
+    width: 150px;
+    display: inline-block;
+    margin: 0px;
+    text-align: center;
+    position: relative;}
+  
+    .Container img:hover
+    {opacity: 0.4;}
+  
+    .Container .texte
+    {font-family: "Open Sans", "Segoe UI", Helvetica, Arial;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-23%, -30%);
+    z-index: -1;}
+    
+    .souris
+    {cursor: pointer;}
+   </style>
+  
+  <script>
+    function and_play_stop()
+    {
+    var PLAYER = document.getElementById("PLAYER" );
+    if (PLAYER.paused)
+    {PLAYER.play();}
+    else
+    {PLAYER.pause();}
+    }
+   </script> 
+    
+
+</head>
+
+<Header>
+    <div class="logo">
+        <a href="index.html">Les péripéties Parisiennes</a>
+    </div>
+</Header>
+
+<!-- body : contenu visibles du site -->
+
+<body>
+        <img src="src\img\olympia Apashe.jpg">
+
+    <br>
+    <br>
+   
+   <div class="Texte1">
+        <p>Après quelques minutes de métro et de marche, on arrive devant l'Olympia. 
+        Il y a peu de monde alors on décide de se trouver un coin pour manger. 
+       </p>
+       <img src="src\img\Firefly a drawing of 4 students ( 2 boys and 2 girls) standing and eating in the streets of Paris at.jpg" alt="Eating time">
+   </div>
+
+   <div class="Texte4">
+        <p>Au retour de notre petite pause repas, <br>
+            on constate que la foule inexistante à notre arrivée <br> 
+            est maintenant plus longue que jamais... <br>
+            <em> (Cliquez sur la foule)</em></p>
+   </div>
+
+
+    <!-- TEST FONCTIONNEL -->
+ <audio id="PLAYER" preload="none">
+    <!-- ### Lien audio ### -->
+    <source src="src\Son\bruit de fond discussion en français.mp3"/>
+ 
+   </audio>
+   <div class="Container">
+     
+    <!-- ### Image ### -->
+    <image type="button" onclick="and_play_stop()" src="src\img\foule.png" border="0" alt="image"></image>
+   </div>
+ 
+  
+    </div>
+        
+        </button> 
+    
+   <div class="Texte2">
+    <img src="src\img\foule.png" alt="foule2"><br>
+        On entre enfin dans la salle de concert, l'ambiance est folle, le concert va commencer ! <br>
+        <a href="https://drive.google.com/drive/u/1/folders/1HDj_8SmFFtcmZVZSk_uPuuY7GL6s57iH">
+        https://drive.google.com/drive/u/1/folders/1HDj_8SmFFtcm<br>ZVZSk_uPuuY7GL6s57iH
+        </a>
+   </div>
+
+ 
+
+    <!-- scripts -->
+    <script src="js/main5.js"></script>
+</body>
+
+</html>
