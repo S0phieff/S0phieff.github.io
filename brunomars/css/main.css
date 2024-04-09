@@ -1,0 +1,43 @@
+/* on place généralement les variables dans le pseudo élémen :root */
+:root{
+    /* le nom de la varriable commence toujours pas deux tirets */
+    --exemplevariable : rgb(255,0,0);
+}
+
+/* remise à zero des éléments */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+    
+}
+
+body{
+    /* utilisation d'une variable */
+   
+    background-image:url("../src/img/Screenshot_20240407_215201.jpg");
+    background-color: brown ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+
+}
+
+.audio{
+    
+    display: block;
+    border-radius: 4px;
+    margin-top:1060px;
+    margin-left: 1080px;
+    position: fixed;
+
+}
+
+.img{
+width: 1000px ;
+height: 2000px;
+position: relative;
+
+
+}
